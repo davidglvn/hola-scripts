@@ -1,0 +1,26 @@
+{
+  "author": "habshi",
+	"site": "https://github.com/habshi",
+	"unblocker_rules": {
+		"iheart": {
+			"description": "Unblock iHeartRadio",
+			"link": "iheart.com",
+			"icon": "http://www.iheart.com/_/467/img/nav/logo_ihr.png",
+			"os": [
+				"windows",
+				"android"
+			],
+			"cmds": [
+				{
+					"hosts": [
+						"iheart.com",
+						"iheart.net",
+						"iheartradio.com"
+					],
+					"dst_dns": true,
+					"then": "PROXY US"
+				}
+			]
+		}
+	}
+}
